@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v5
 
-      - name: Set up Nopde.Js
+      - name: Set up Node.Js
         uses: actions/setup-node@v3
         with:
           node-version: 16
